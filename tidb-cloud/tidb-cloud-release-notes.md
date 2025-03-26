@@ -8,6 +8,16 @@ aliases: ['/tidbcloud/supported-tidb-versions','/tidbcloud/release-notes']
 
 このページには、2025 年の[TiDB Cloud](https://www.pingcap.com/tidb-cloud/)のリリース ノートが記載されています。
 
+## 2025年3月25日 {#march-25-2025}
+
+**コンソールの変更**
+
+-   [TiDB Cloudサーバーレス](/tidb-cloud/select-cluster-tier.md#tidb-cloud-serverless)クラスター内のパブリック エンドポイントのファイアウォール ルールをサポートします。
+
+    TiDB Cloud Serverless クラスターのファイアウォール ルールを構成して、パブリック エンドポイント経由のアクセスを制御できるようになりました。セキュリティを強化するために、許可された IP アドレスまたは範囲を[TiDB Cloudコンソール](https://tidbcloud.com/)で直接指定します。
+
+    詳細については[パブリックエンドポイント用のTiDB Cloudサーバーレス ファイアウォール ルールを構成する](/tidb-cloud/configure-serverless-firewall-rules-for-public-endpoints.md)参照してください。
+
 ## 2025年3月18日 {#march-18-2025}
 
 **一般的な変更**

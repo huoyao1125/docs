@@ -80,7 +80,7 @@
     -   サーバーレスDriver![BETA](/media/tidb-cloud/blank_transparent_placeholder.png)
         -   [TiDB CloudサーバーレスDriver](/tidb-cloud/serverless-driver.md)
         -   [Node.jsの例](/tidb-cloud/serverless-driver-node-example.md)
-        -   [プリズマの例](/tidb-cloud/serverless-driver-prisma-example.md)
+        -   [Prismaの例](/tidb-cloud/serverless-driver-prisma-example.md)
         -   [Kyselyの例](/tidb-cloud/serverless-driver-kysely-example.md)
         -   [霧雨の例](/tidb-cloud/serverless-driver-drizzle-example.md)
 -   開発リファレンス
@@ -291,6 +291,8 @@
         -   AIフレームワーク
             -   [ラマインデックス](/tidb-cloud/vector-search-integrate-with-llamaindex.md)
             -   [ランチェイン](/tidb-cloud/vector-search-integrate-with-langchain.md)
+        -   AIサービス
+            -   [アマゾン岩盤](/tidb-cloud/vector-search-integrate-with-amazon-bedrock.md)
         -   モデル/サービスの埋め込み
             -   [ジナ・アイ](/tidb-cloud/vector-search-integrate-with-jinaai-embedding.md)
         -   ORM ライブラリ
