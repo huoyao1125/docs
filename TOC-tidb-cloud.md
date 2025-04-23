@@ -9,7 +9,6 @@
 -   TiDB Cloudを選ぶ理由
     -   [TiDB Cloudの紹介](/tidb-cloud/tidb-cloud-intro.md)
     -   [MySQLの互換性](/mysql-compatibility.md)
-    -   [ロードマップ](/tidb-cloud/tidb-cloud-roadmap.md)
 -   TiDB Cloudを使い始める
     -   [TiDB Cloud Serverless を試してみる](/tidb-cloud/tidb-cloud-quickstart.md)
     -   [TiDB + AIを試す](/tidb-cloud/vector-search-get-started-using-python.md)
@@ -159,7 +158,7 @@
             -   [パブリック接続経由で接続](/tidb-cloud/connect-via-standard-connection.md)
             -   [AWS のプライベートエンドポイント経由で接続する](/tidb-cloud/set-up-private-endpoint-connections.md)
             -   [プライベートエンドポイント（プライベートサービス接続）経由で Google Cloud に接続する](/tidb-cloud/set-up-private-endpoint-connections-on-google-cloud.md)
-            -   [VPC ピアリング経由で接続](/tidb-cloud/set-up-vpc-peering-connections.md)
+            -   [VPCピアリング経由で接続](/tidb-cloud/set-up-vpc-peering-connections.md)
             -   [SQL シェル経由で接続する](/tidb-cloud/connect-via-sql-shell.md)
         -   [TiDB Cloud専用クラスタのスケール](/tidb-cloud/scale-tidb-cluster.md)
         -   [TiDB Cloud専用データのバックアップと復元](/tidb-cloud/backup-and-restore.md)
@@ -170,7 +169,7 @@
         -   [TiFlashレプリカを作成する](/tiflash/create-tiflash-replicas.md)
         -   [TiFlashからデータを読み取る](/tiflash/use-tidb-to-read-tiflash.md)
         -   [MPPモードを使用する](/tiflash/use-tiflash-mpp-mode.md)
-        -   [ファストスキャンを使用する](/tiflash/use-fastscan.md)
+        -   [FastScanを使用する](/tiflash/use-fastscan.md)
         -   [サポートされているプッシュダウン計算](/tiflash/tiflash-supported-pushdown-calculations.md)
         -   [TiFlashクエリ結果のマテリアライゼーション](/tiflash/tiflash-results-materialization.md)
         -   [TiFlash遅延マテリアライゼーション](/tiflash/tiflash-late-materialization.md)
@@ -609,7 +608,7 @@
         -   [分離レベル](/transaction-isolation-levels.md)
         -   [楽観的トランザクション](/optimistic-transaction.md)
         -   [悲観的な取引](/pessimistic-transaction.md)
-        -   [非トランザクションDML文](/non-transactional-dml.md)
+        -   [非トランザクションDMLステートメント](/non-transactional-dml.md)
     -   [ビュー](/views.md)
     -   [パーティショニング](/partitioned-table.md)
     -   [一時テーブル](/temporary-tables.md)
@@ -779,10 +778,10 @@
             -   [TPC-C パフォーマンステストレポート](/tidb-cloud/v8.5-performance-benchmarking-with-tpcc.md)
             -   [Sysbenchパフォーマンステストレポート](/tidb-cloud/v8.5-performance-benchmarking-with-sysbench.md)
         -   TiDB v8.1
-            -   [TPC-Cパフォーマンステストレポート](/tidb-cloud/v8.1-performance-benchmarking-with-tpcc.md)
+            -   [TPC-C パフォーマンステストレポート](/tidb-cloud/v8.1-performance-benchmarking-with-tpcc.md)
             -   [Sysbenchパフォーマンステストレポート](/tidb-cloud/v8.1-performance-benchmarking-with-sysbench.md)
         -   TiDB v7.5
-            -   [TPC-C パフォーマンステストレポート](/tidb-cloud/v7.5-performance-benchmarking-with-tpcc.md)
+            -   [TPC-Cパフォーマンステストレポート](/tidb-cloud/v7.5-performance-benchmarking-with-tpcc.md)
             -   [Sysbenchパフォーマンステストレポート](/tidb-cloud/v7.5-performance-benchmarking-with-sysbench.md)
         -   TiDB v7.1
             -   [TPC-Cパフォーマンステストレポート](/tidb-cloud/v7.1-performance-benchmarking-with-tpcc.md)

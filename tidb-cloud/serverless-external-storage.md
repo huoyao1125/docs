@@ -131,7 +131,7 @@ AWS CloudFormation でロール ARN を作成するときに問題が発生し�
                     "Resource": "arn:aws:kms:ap-northeast-1:105880447796:key/c3046e91-fdfc-4f3a-acff-00597dd3801f"
                 }
 
-        -   バケット内のオブジェクトが別の暗号化バケットからコピーされた場合、KMS キーの値には両方のバケットのキーを含める必要があります。例： `"Resource": ["arn:aws:kms:ap-northeast-1:105880447796:key/c3046e91-fdfc-4f3a-acff-00597dd3801f","arn:aws:kms:ap-northeast-1:495580073302:key/0d7926a7-6ecc-4bf7-a9c1-a38f0faec0cd"]` 。
+        -   バケット内のオブジェクトが別の暗号化バケットからコピーされた場合、KMSキーの値には両方のバケットのキーを含める必要があります。例： `"Resource": ["arn:aws:kms:ap-northeast-1:105880447796:key/c3046e91-fdfc-4f3a-acff-00597dd3801f","arn:aws:kms:ap-northeast-1:495580073302:key/0d7926a7-6ecc-4bf7-a9c1-a38f0faec0cd"]` 。
 
     6.  **「次へ」**をクリックします。
 
@@ -292,6 +292,8 @@ AccessKey ペアを構成するには、次の手順を実行します。
     -   **「アクション」**セクションで、必要に応じて権限を選択します。
 
         TiDB Cloud Serverless クラスターにデータをインポートするには、 **oss:GetObject** 、 **oss:GetBucketInfo** 、および**oss:ListObjects**権限を付与します。
+
+        TiDB Cloud Serverless クラスターからデータをエクスポートするには、 **oss:PutObject** 、 **oss:GetBucketInfo** 、および**oss:ListBuckets**権限を付与します。
 
     -   **リソース**セクションで、バケットとバケット内のオブジェクトを選択します。
 
