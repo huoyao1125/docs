@@ -169,7 +169,7 @@
         -   [TiFlashレプリカを作成する](/tiflash/create-tiflash-replicas.md)
         -   [TiFlashからデータを読み取る](/tiflash/use-tidb-to-read-tiflash.md)
         -   [MPPモードを使用する](/tiflash/use-tiflash-mpp-mode.md)
-        -   [ファストスキャンを使用する](/tiflash/use-fastscan.md)
+        -   [FastScanを使用する](/tiflash/use-fastscan.md)
         -   [サポートされているプッシュダウン計算](/tiflash/tiflash-supported-pushdown-calculations.md)
         -   [TiFlashクエリ結果のマテリアライゼーション](/tiflash/tiflash-results-materialization.md)
         -   [TiFlash遅延マテリアライゼーション](/tiflash/tiflash-late-materialization.md)
@@ -330,6 +330,7 @@
     -   [チェンジフィードの概要](/tidb-cloud/changefeed-overview.md)
     -   [MySQLシンクへ](/tidb-cloud/changefeed-sink-to-mysql.md)
     -   [カフカシンクへ](/tidb-cloud/changefeed-sink-to-apache-kafka.md)
+    -   [パルサーシンクへ](/tidb-cloud/changefeed-sink-to-apache-pulsar.md)
     -   [TiDB Cloudシンクへ](/tidb-cloud/changefeed-sink-to-tidb-cloud.md)
     -   [クラウドストレージへ](/tidb-cloud/changefeed-sink-to-cloud-storage.md)
     -   参照
@@ -397,6 +398,7 @@
         -   [バックアップリソースを使用する](/tidb-cloud/terraform-use-backup-resource.md)
         -   [復元リソースを使用する](/tidb-cloud/terraform-use-restore-resource.md)
         -   [インポートリソースの使用](/tidb-cloud/terraform-use-import-resource.md)
+        -   [クラスタリソースの移行](/tidb-cloud/terraform-migrate-cluster-resource.md)
     -   [ヴェルセル](/tidb-cloud/integrate-tidbcloud-with-vercel.md)
     -   [ザピエール](/tidb-cloud/integrate-tidbcloud-with-zapier.md)
 
@@ -793,7 +795,7 @@
             -   [TPC-C パフォーマンステストレポート](/tidb-cloud/v7.5-performance-benchmarking-with-tpcc.md)
             -   [Sysbenchパフォーマンステストレポート](/tidb-cloud/v7.5-performance-benchmarking-with-sysbench.md)
         -   TiDB v7.1
-            -   [TPC-C パフォーマンステストレポート](/tidb-cloud/v7.1-performance-benchmarking-with-tpcc.md)
+            -   [TPC-Cパフォーマンステストレポート](/tidb-cloud/v7.1-performance-benchmarking-with-tpcc.md)
             -   [Sysbenchパフォーマンステストレポート](/tidb-cloud/v7.1-performance-benchmarking-with-sysbench.md)
         -   TiDB v6.5
             -   [TPC-C パフォーマンステストレポート](/tidb-cloud/v6.5-performance-benchmarking-with-tpcc.md)

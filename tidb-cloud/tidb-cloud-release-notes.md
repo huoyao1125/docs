@@ -8,6 +8,16 @@ aliases: ['/tidbcloud/supported-tidb-versions','/tidbcloud/release-notes']
 
 このページには、2025 年の[TiDB Cloud](https://www.pingcap.com/tidb-cloud/)のリリース ノートが記載されています。
 
+## 2025年5月27日 {#may-27-2025}
+
+**一般的な変更**
+
+-   [TiDB Cloud専用](/tidb-cloud/select-cluster-tier.md#tidb-cloud-dedicated)クラスターの変更フィードを使用して[アパッチパルサー](https://pulsar.apache.org)へのストリーミング データをサポートします。
+
+    この機能により、 TiDB Cloud Dedicated クラスタをより幅広い下流システムと統合できるようになり、追加のデータ統合要件にも対応できるようになります。この機能を使用するには、 TiDB Cloud Dedicated クラスタのバージョンが v7.5.1 以降であることを確認してください。
+
+    詳細については[アパッチパルサーに沈む](/tidb-cloud/changefeed-sink-to-apache-pulsar.md)参照してください。
+
 ## 2025年5月13日 {#may-13-2025}
 
 **一般的な変更**
@@ -154,7 +164,7 @@ aliases: ['/tidbcloud/supported-tidb-versions','/tidbcloud/release-notes']
 
     TiDB Cloud Serverless は、Google Cloud Storage (GCS) および Azure Blob Storage からのデータのインポートをサポートするようになりました。認証には、Google Cloud サービス アカウント キーまたは Azure Shared Access Signature (SAS) トークンを使用できます。この機能により、 TiDB Cloud Serverless へのデータ移行が簡素化されます。
 
-    詳細については、 [Amazon S3、GCS、Azure Blob Storage から CSV ファイルをTiDB Cloud Serverless にインポートする](/tidb-cloud/import-csv-files-serverless.md)および[Amazon S3、GCS、または Azure Blob Storage から Apache Parquet ファイルをTiDB Cloud Serverless にインポートする](/tidb-cloud/import-parquet-files-serverless.md)参照してください。
+    詳細については、 [Amazon S3、GCS、Azure Blob Storage から CSV ファイルをTiDB Cloud Serverless にインポートする](/tidb-cloud/import-csv-files-serverless.md)および[Amazon S3、GCS、Azure Blob Storage から Apache Parquet ファイルをTiDB Cloud Serverless にインポートする](/tidb-cloud/import-parquet-files-serverless.md)参照してください。
 
 ## 2025年1月21日 {#january-21-2025}
 
